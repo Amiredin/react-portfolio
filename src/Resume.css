@@ -1,0 +1,55 @@
+.resume {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.resume h5 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.resume-body {
+  flex: 1 1 300px;
+  border-bottom: 1px solid lightgray;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+}
+
+.resume-body h6 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.resume-body span {
+  color: orange;
+}
+
+.workflow li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.skill {
+  display: flex;
+}
+.skill h6 {
+  margin-right: 20px;
+}
+.skill li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.skill-content {
+  flex: 1 1 10px;
+  border-bottom: 1px solid lightgray;
+  border-radius: 10px;
+  margin: 3px;
+  padding: 3px;
+}
+@media only screen and (max-width: 600px) {
+  .skill {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

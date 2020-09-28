@@ -1,0 +1,50 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.nav-avatar {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatar {
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-bio {
+  margin-top: 12px;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}
+.nav-icons {
+  margin-top: 10px;
+  text-align: center;
+}
+.MuiSvgIcon-root {
+  margin: 8px;
+}
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 8px;
+  padding: 50px;
+  background-color: lightgray;
+}
+
+.about {
+  margin-top: 15px;
+  text-align: center;
+}
+
+nav Button {
+  margin-top: 50px !important;
+}
+
+.button {
+  width: 100%;
+}

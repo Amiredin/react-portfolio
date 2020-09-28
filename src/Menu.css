@@ -1,0 +1,15 @@
+.menu-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.menu-link {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+
+  margin: 5px;
+}
